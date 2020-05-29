@@ -10,8 +10,7 @@ Hi and welcome to our app! The purpose is to take a few things that matter to yo
 When analysisng the scripts we found that a higher rating (on imdb) in episode usually means that Ross and Rachel are both talking more than they usually do and that the episode a very high percentage of scenes at Monica's Apartment.  This was the inspiration for the app. Companies like Netflix give us recommendations about what tv series or movie we might like, but they don't recommend a specific tv show.  If you know you want to watch Friends, but aren't sure if you feel like begining the long process of binging it, then you probably just want a couple of episodes that are quailty (not that the entire series isn't quality).  
 
 ## About Supervised
-The supervised version takes in a max of one character, one location, one side character and one keyword.  The algorithm is a little tedious to explain because we had to make some tough choices about how to choose which inputs mattered the most or a systematic way of combining them for what we thought was a fitting algorithm.  
-
+The supervised version takes in a max of one character, one location, one side character and one keyword.
 
 ### How the algorithm works:
 - Takes the character (if one is chosen) and searches the database for the top 5 episodes in which the percentage of lines that character speaks vs all lines in the episode is highest
@@ -22,8 +21,8 @@ The supervised version takes in a max of one character, one location, one side c
 - Return the first 5 in the list.
 - If there was too much over lap and 5 cannot be returned fill in the end with just top rated episodes that were not yet reccomended.
 
-
-
+### A caveat about this method
+The algorithm is a little wordy to explain because we had to make some tough choices about how to choose which inputs mattered the most or a systematic way of combining them for what we thought was a fitting algorithm.  One notices that when Monica's Apartment is chosen via this method, and no extra keyword is mentioned, you will usually get the same reccomendations.  This is due to the fact that such high ranked episodes took place at her apartment and without a keyword they end up getting to the top of the list.  So a keyword is recommended if you want a good variety in your answers while still choosing Monica's Apartment.  Another option is to compare what you get from this version to the unsupervised version and taking both lists into account decide the episode you are in the mood for.
 
 
 
