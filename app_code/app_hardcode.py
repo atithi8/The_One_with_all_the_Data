@@ -29,12 +29,13 @@ def bestCharacter(cha):
         return list(dataset.loc[(dataset[cha].values>=min(listof)) & (dataset[cha].values<=max( listof))].index)
 
 
+#the min number for all the pre inputed side characters is 5 so we are good here
 def bestSide(side):
-	return list(dataset.loc[dataset[side]==1].index)
+	return list(dataset.loc[dataset[side]==1].index)[0:5]
 
 
 
-st.title(' One with the Recommendations')
+st.title('The One with the Recommendations')
 
 st.write('Tell us about what you are looking for in an episode and we will reccomend the 5 highest rated episodes that match your preferences.')
 
@@ -160,28 +161,24 @@ submit=st.button('Recommend')
 
 if submit and ready:
 	#do things
-	setwinners=[]
+	setwinners=[] 
 	others=[]
 	if loc_win!='':
 		df=bestLocation(loc_win)
-		setwinners.append(df[0])
-		others=others+df[1:len(df)]
+		others=others+df[0:len(df)]
 	if char_win!='':
 		df=bestCharacter(char_win)
-		setwinners.append(df[0])
-		others=others+df[1:len(df)]
+		others=others+df[0:len(df)]
 	if side_win!='':
 		df=bestSide(side_win)
-		setwinners.append(df[0])
-		others=others+df[1:len(df)]	
+		others=others+df[0:len(df)]	
 	if key_win!='':	
 		df=bestKeyword(key_win)
-		setwinners.append(df[0])
-		others=others+df[1:len(df)]
+		others=others+df[0:len(df)]
 
 	#silly goose didn't choose anything so we are just going to give you the best matches 
 	if key_win=='' and side_win=='' and char_win=='' and loc_win=='':
-		st.write("The overall best rated episodes")
+		st.write("No preference? Well, here are the overall best rated episodes")
 		st.write(dataset[['season','episode','title']][0:5])
 		if not spoil:
 			for i in range(5):
@@ -189,31 +186,33 @@ if submit and ready:
 		
 	else:
 		final_index=[]
-		for i in setwinners:
-			if i not in final_index:
-				final_index.append(i)
-
-		#if a value is a repeat we OBVI want it, else just choose the highest rating
-		extra=[]
-		betterfit=[]
 		for i in others:
-			if (i in extra) and (i not in betterfit) :
-				betterfit.append(i)
-			if (i not in extra) and (i not in final_index) :
-				extra.append(i)
+			if [i,0] not in final_index:
+				final_index.append([i,0])
+		#find the multiplicities
+		for i in range(len(final_index)):
+			final_index[i]=[final_index[i][0],-others.count(final_index[i][0])]
 		
-		remaining=list(dataset.iloc[betterfit].sort_values(by=['rating'], ascending=False).index)
-			
-		if len(remaining)>0:
-			final_index=final_index+remaining
-		if len(final_index)<5 and len(extra)>0:
-			final_index=final_index+list(dataset.iloc[extra].sort_values(by=['rating'], ascending=False).index)
+		#need it to be decreasing not increases
+		setwinners=[t[0] for t in sorted(final_index, key=lambda x:x[1])]
 		
-		#chop off to just top 5, sort these from greatest to least 
-		if len(final_index)>5:
-			final_index=sorted(final_index[0:5], reverse=False)	
-		st.write(dataset.iloc[final_index][['season','episode','title']])	
+		#add on some just really good episodes if their match didnt return enough
+		counts=0
+		final_index=[]
+		while len(setwinners)+len(final_index)<5:
+			if counts not in setwinners:
+				final_index.append(counts)
+			counts=counts+1
 		
+		setwinners=setwinners[0:min(len(setwinners),5)]
+		
+		st.write(dataset.iloc[setwinners][['season','episode','title']])	
+		
+
+		if len(final_index)>0:
+			st.write('It looks like we didn\'t find enough matches to what you were looking for so please also enjoy these really good episodes')
+			st.write(dataset.iloc[final_index][['season', 'episode', 'title']])
+		final_index=setwinners+final_index
 		if not spoil:
 			for i in final_index:
 				st.write(dataset.iloc[i].title+': '+ dataset.iloc[i].summary)
