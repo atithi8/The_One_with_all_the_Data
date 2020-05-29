@@ -11,7 +11,7 @@ dataset=pd.read_csv('for_app_hardcode.csv')
 @st.cache
 def bestLocation(loc):
 	listof=np.unique(-np.sort(-dataset[loc].values)[0:5])
-	return list(dataset.loc[(dataset[loc].values>=min(listof)) & (dataset[loc].values<=max( listof))].index)
+	return list(dataset.loc[(dataset[loc].values>=min(listof)) & (dataset[loc].values<=max( listof))].index)[0:5]
 
 
 def bestKeyword(keys):
@@ -26,7 +26,7 @@ def bestKeyword(keys):
 
 def bestCharacter(cha):
         listof=np.unique(-np.sort(-dataset[cha].values)[0:5])
-        return list(dataset.loc[(dataset[cha].values>=min(listof)) & (dataset[cha].values<=max( listof))].index)
+        return list(dataset.loc[(dataset[cha].values>=min(listof)) & (dataset[cha].values<=max( listof))].index)[0:5]
 
 
 #the min number for all the pre inputed side characters is 5 so we are good here
@@ -110,7 +110,7 @@ if st.checkbox('Estelle'):
 	side_win='estelle'
 
 if st.checkbox('Ursula'):
-	urusla=1
+	ursula=1
 	side_win='ursula'
 
 if st.checkbox('No preference for side character'):
