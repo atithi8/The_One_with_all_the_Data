@@ -1,0 +1,783 @@
+name,main
+monica,True
+ross,True
+phoebe,True
+joey,True
+rachel,True
+chandler,True
+waitress,False
+paul,False
+priest on tv,False
+frannie,False
+customer,False
+marsha,False
+carol,False
+mrs geller,False
+mr geller,False
+susan,False
+barry,False
+robbie,False
+bernice,False
+dr. oberman,False
+paula,False
+alan,False
+the guys,False
+lizzie,False
+guys,False
+leslie,False
+kiki,False
+joanne,False
+receptionist,False
+pizza guy,False
+both,False
+kid,False
+angela,False
+janice,False
+woman,False
+bob,False
+aurora,False
+director,False
+jill,False
+mr heckles,False
+paolo,False
+shelley,False
+aunt lillian,False
+nurse,False
+andrea,False
+lowell,False
+terry,False
+guy,False
+girl,False
+max,False
+david,False
+sandy,False
+fun bobby,False
+dick clark,False
+jay leno,False
+mrs bing,False
+coma guy,False
+carol and susan ,False
+phoebe's assistant,False
+girls,False
+roger,False
+mr tribbiani,False
+ronni,False
+mrs tribbiani,False
+lorraine,False
+kristin,False
+fireman no. 1,False
+fireman no. 2,False
+fireman no. 3,False
+mrs tedlock,False
+celia,False
+steve,False
+ursula ,False
+woman ,False
+teacher ,False
+carol ,False
+susan ,False
+helen ,False
+nina ,False
+ross and susan ,False
+mr douglas ,False
+jamie ,False
+fran ,False
+mrheckles ,False
+soothing male voice ,False
+nurse ,False
+dr. mitchell ,False
+dr. rosen ,False
+the whole party ,False
+phoebe's friends ,False
+dr. mitchell,False
+dr. rosen,False
+aunt iris,False
+intercom,False
+luisa,False
+woman no. 1,False
+woman no. 2,False
+bobby,False
+mindy,False
+danielle,False
+teacher,False
+dr. baldhara,False
+pa,False
+actor,False
+casting director no. 1,False
+casting director no. 2,False
+young ethan,False
+gerston,False
+santos,False
+petrie,False
+dr. franzblau,False
+lydia,False
+janitor,False
+melanie,False
+flight attendant,False
+flight attendant ,False
+man,False
+carl,False
+julie,False
+paulo,False
+frankie,False
+annabelle,False
+hombre man,False
+carol and susan,False
+store guy,False
+mr treeger,False
+mr boyle,False
+alison,False
+stranger,False
+duncan,False
+rahcel,False
+old woman,False
+jade,False
+waiter,False
+machine,False
+caroline,False
+boys,False
+doctor,False
+girl 1 on bus,False
+girl 2 on bus,False
+girl 1,False
+girl 2,False
+stephanie,False
+transit authority guy,False
+both [but to different babies],False
+together,False
+mich,False
+rtst,False
+radio,False
+gunther,False
+gang,False
+grandmother,False
+fbob,False
+russ,False
+estelle,False
+mrs wallace,False
+mrs green,False
+mr a,False
+minister,False
+commercial voiceover,False
+rob,False
+erica,False
+lipson,False
+kids,False
+tv doctor,False
+security guard,False
+trainer,False
+director's assistant,False
+susie,False
+van damme,False
+interviewer,False
+gail,False
+"mr, geller",False
+roy,False
+"rachel, monica, roy, and chip",False
+dr. burke,False
+delivery guy,False
+richard,False
+friend,False
+joey's co-star,False
+tattoo artist,False
+producer,False
+eddie,False
+amber,False
+dr. remore,False
+tilly,False
+writer,False
+dr horton,False
+dr. horton,False
+amger,False
+casting guy,False
+mover,False
+ben,False
+ernie,False
+big bully,False
+little bully,False
+mrs buffay,False
+frank,False
+mr greene,False
+mrs greene,False
+girl's voice,False
+gunter,False
+scott,False
+ryan,False
+jeannie,False
+mr douglas,False
+phoebe and ryan,False
+wedding planner,False
+mr wineburg,False
+mrs wineburg,False
+best man,False
+video,False
+woman's voice,False
+michelle,False
+sherman whitfield,False
+whitfield,False
+malcom,False
+host,False
+mike,False
+phoebe and girl,False
+jasmine,False
+isabella,False
+eric,False
+friend no. 1,False
+friend no. 2,False
+her friends,False
+matress king,False
+dr. green,False
+dr green,False
+student,False
+jester,False
+margha,False
+sarah,False
+leader,False
+rachel’s boss,False
+mr kaplan,False
+joey’s sisters,False
+cookie,False
+sister 1,False
+joey’s grandmother,False
+joey’s sister,False
+mary-angela,False
+mary-theresa,False
+mark,False
+jeannine,False
+julio,False
+quartet,False
+the bass barber,False
+bass singer,False
+clerk,False
+robert,False
+richard’s date,False
+singer,False
+ginger,False
+phoebe and leslie,False
+lecturer,False
+commercial,False
+issac,False
+chloe,False
+sergei,False
+mischa,False
+sophie,False
+the girls,False
+alice,False
+hypnosis tape,False
+pete,False
+walker,False
+secretary,False
+employee,False
+the director,False
+kate,False
+spokeswoman,False
+joanna,False
+lauren,False
+anchorwoman,False
+hold voice,False
+tommy,False
+cailin,False
+stage manager,False
+vince,False
+jason,False
+dr. rhodes,False
+dr. johnson,False
+pete's mom,False
+fireman,False
+guru saj,False
+billy crystal,False
+robin williams,False
+billy,False
+robin,False
+doug,False
+hoshi,False
+bonnie,False
+phil,False
+stevens,False
+announcer,False
+referee,False
+tv announcer,False
+phoebe sr,False
+ross and bonnie,False
+rachel and bonnie,False
+phoebe sr.,False
+ursula,False
+chip,False
+tony,False
+peter,False
+joanna ,False
+mrs geller ,False
+the salesman,False
+oven,False
+gym employee,False
+rick,False
+bank officer,False
+ms. lambert,False
+mrs potter,False
+mr simon,False
+kathy,False
+josh,False
+amanda,False
+cheryl,False
+mrs burkart,False
+casey,False
+voice,False
+dr. timothy burke,False
+tim,False
+mr posner,False
+mrs lynch,False
+allesandro,False
+drew,False
+a waiter,False
+the waiter,False
+the conductor,False
+the woman from poughkeepsie,False
+kitchen worker,False
+woman on train,False
+smart kid,False
+tour guide,False
+older scientist,False
+another tour guide,False
+another scientist,False
+dr. zane,False
+frank and alice,False
+kathy's co-star,False
+mr waltham,False
+joshua,False
+emily,False
+the a.d,False
+the cigarette smoking guy ,False
+charlton heston,False
+the cigarette guy,False
+devon,False
+liam,False
+ticket counter attendant,False
+mrs chatracus,False
+the doctor,False
+ticket agent,False
+mrs burgin,False
+mr burgin,False
+the singing man,False
+the saleslady,False
+sleep clinic worker,False
+marjorie,False
+the stripper,False
+the vendor,False
+fergie,False
+housekeeper,False
+mrs waltham,False
+felicity,False
+drunk man,False
+passenger,False
+minster,False
+gate agent,False
+dave,False
+dr. harad,False
+joey's doctor,False
+dan,False
+stage director,False
+emeril,False
+pbs volunteer,False
+gary collins,False
+hotel clerk,False
+danny,False
+health inspector,False
+larry,False
+tom,False
+the housekeeper,False
+the paramedic,False
+the teacher,False
+cynthia,False
+dr. leedbetter,False
+a female student,False
+the man,False
+danny's sister,False
+krista,False
+elizabeth hornswoggle,False
+elizabeth,False
+kara,False
+frank sr.,False
+the pastor,False
+the casting director,False
+dr. ledbetter,False
+katie,False
+party guests,False
+guest #1,False
+guest #2,False
+guest #3,False
+the smoking woman,False
+cop,False
+gary,False
+the saleswoman,False
+gary's radio,False
+the old man,False
+the little girl,False
+mr zelner,False
+the hot girl,False
+jen,False
+kim,False
+nancy,False
+kyle,False
+raymond,False
+delivery girl,False
+caitlin,False
+grandma tribbiani,False
+answering machine,False
+dr. miller,False
+stanley,False
+the grip,False
+the husband,False
+a casino boss,False
+a tourist,False
+the croupier,False
+blackjack dealer,False
+the woman dealer,False
+joey's hand twin,False
+a drunken gambler,False
+drunken gambler,False
+the lurker,False
+the security guard,False
+the attendant,False
+attendant,False
+croupler,False
+hitchhiker,False
+karin,False
+meg,False
+russell,False
+the potential roommate,False
+the professor,False
+casting director #1,False
+casting director #2,False
+casting director #3,False
+a crew member,False
+alex,False
+a student,False
+guy #1,False
+guy #2,False
+the porsche owner,False
+judge,False
+passerby,False
+janine,False
+ralph lauren,False
+hillary,False
+tall guy,False
+patron,False
+customers,False
+a male customer,False
+the fan,False
+"buffay, the vampire layer",False
+the vampire,False
+man’s voice,False
+another man’s voice,False
+same man’s voice,False
+monica's boyfriend,False
+guy all the way in the back,False
+dr. wesley,False
+dr. drake remoray,False
+hope,False
+dr. roger,False
+arthur,False
+jack,False
+joey's look-a-like,False
+the instructor,False
+janice’s voice,False
+burt,False
+fireman #1,False
+dana,False
+fireman #2,False
+mel,False
+professor feesen,False
+sebastian,False
+eldad,False
+patrick,False
+the producer,False
+wayne,False
+c.h.e.e.s.e.,False
+the dry cleaner,False
+the museum official,False
+female clerk,False
+male jeweler,False
+female jeweler,False
+mr thompson,False
+zoe,False
+first dorm guy,False
+second dorm guy,False
+matire'd,False
+lisa,False
+emil alexander,False
+mr bowmont,False
+narrator,False
+mac,False
+c.h.e.e.s.e,False
+hilda,False
+tag,False
+nurse #1,False
+nurse #2,False
+dr. stryker remoray,False
+melissa,False
+the photographer,False
+hums while he pees,False
+whitney,False
+joey’s date,False
+erin,False
+female student,False
+male student,False
+the waitress,False
+the colonel,False
+the librarian,False
+the head librarian,False
+the knocker,False
+the woman,False
+maitre d',False
+male guest,False
+salesman,False
+the wedding guest,False
+the second guest,False
+aunt millie,False
+smoke detector,False
+a disembodied voice,False
+the fireman,False
+supervisor,False
+earl,False
+"the ""hey guy"" guy",False
+marge,False
+the man in the sportscar,False
+dina,False
+jessica lockhart,False
+cecilia,False
+the writer,False
+fredrick,False
+kristen,False
+megan,False
+a woman,False
+lewis,False
+morse,False
+the cute guy,False
+jake,False
+the presenter,False
+jessica ashley,False
+cassie,False
+the other woman,False
+waiter in drag,False
+helena,False
+policeman,False
+the chorus line,False
+the assistant director,False
+mr bing,False
+the rabbi,False
+photographer,False
+bandleader,False
+mona,False
+dennis phillips,False
+little girl,False
+second girl,False
+ashley,False
+fat girl,False
+gert,False
+front desk clerk,False
+woman at the wedding,False
+man at the wedding,False
+anxious wedding guest,False
+airline employee,False
+dr. long,False
+mr franklin,False
+dr. drake ramoray,False
+kash,False
+witch,False
+clown,False
+cowgirl,False
+ballerina,False
+boy in the cape,False
+[time lapse,False
+mrs verhoeven's daughter,False
+brenda,False
+stripper,False
+hooker,False
+stu,False
+will,False
+trudie styler,False
+dr. schiff,False
+locksmith,False
+joey's date,False
+man on tv,False
+woman on tv,False
+don,False
+waiter no. 2,False
+jim,False
+mona's date,False
+parker,False
+aunt lisa,False
+uncle dan,False
+the interviewer,False
+ray,False
+cashier,False
+the food critic,False
+the cooking teacher,False
+the acting teacher,False
+marc,False
+evil bitch,False
+sick bastard,False
+woman giving birth,False
+cliff,False
+sid,False
+ms. mckenna,False
+mary ellen,False
+dr. gettleman,False
+sally,False
+boy,False
+hayley,False
+hayley ,False
+hayley's roommate,False
+ken,False
+claudia,False
+maitre d,False
+ms. geller,False
+waiters,False
+mike ,False
+prospective nanny ,False
+sandy ,False
+david ,False
+"person...    when i left, i said",False
+sandy/grumpus ,False
+catherine ,False
+bitsy ,False
+theodore ,False
+woman at door,False
+ross and rachel while looking at each other surprised and shocked,False
+woman at door in a sing song voice,False
+amy,False
+amy with straight hair,False
+amy storms out,False
+everyone there says,False
+amy with confused look on face,False
+amy coming out of the bathroom,False
+amy and rachel at same time,False
+jo lynn,False
+bill,False
+kevin,False
+wendy,False
+others,False
+gavin,False
+extra,False
+another extra,False
+molly,False
+heather,False
+salon girl ,False
+salon girl,False
+sonia ,False
+blonde girl ,False
+gavin ,False
+molly ,False
+michelle ,False
+her friend ,False
+steve ,False
+waiter #2,False
+intern ,False
+receptionist ,False
+lennart ,False
+producer #1 ,False
+mugger ,False
+lowell ,False
+boss ,False
+handyman,False
+strange man,False
+manny,False
+kori,False
+racel,False
+message,False
+second message,False
+tv,False
+actress/olivia,False
+chase lassiter,False
+1st customer,False
+2nd customer,False
+3rd customer,False
+chandlers,False
+charlie,False
+professor spafford,False
+jane,False
+kyle lowder,False
+bitter lady,False
+matthew ashford,False
+rache,False
+dirk,False
+bitter woman,False
+doctor connelly,False
+professor sherman,False
+shop assistant,False
+zack,False
+prof. sherman,False
+jeanette,False
+ross and charlie,False
+man with a bow tie,False
+phoebe & mike,False
+alexandra steele,False
+mr oberblau,False
+paleontologist,False
+professore clerk,False
+charlie ,False
+both ,False
+precious ,False
+frank jr. ,False
+colleen ,False
+bill ,False
+owen ,False
+assistant,False
+glenda,False
+jack and judy,False
+judy,False
+emma,False
+benjamin,False
+benjamin ,False
+dr. li,False
+dr. biely ,False
+dr. biely,False
+charity guy,False
+laura,False
+host ,False
+"they lock it, but when they're having sex on the couch, its like",False
+agency guy,False
+the guys ,False
+missy ,False
+voice ,False
+donny osmond ,False
+donny ,False
+gene ,False
+stage manager ,False
+man ,False
+"roy, the male stripper ",False
+roy ,False
+henrietta ,False
+adrienne ,False
+pizza guy ,False
+mike's mother ,False
+mike's father ,False
+mike's mom ,False
+mike's dad ,False
+erica ,False
+dr. green ,False
+tape ,False
+director ,False
+casting assistant ,False
+maitre d' ,False
+mr zellner ,False
+mr campbell ,False
+clerk ,False
+[except rachel],False
+gunther ,False
+realtor ,False
+girl ,False
+mackenzie ,False
+mark ,False
+rita ,False
+lady,False
+realtor,False
+r zelner,False
+doctor ,False
+gate attendant #1 ,False
+ticket agent ,False
+passenger #1 ,False
+air stewardess ,False
+passenger #2 ,False
+passenger #3 ,False
+gate attendant #2 ,False
