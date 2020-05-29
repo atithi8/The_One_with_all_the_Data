@@ -215,7 +215,8 @@ if submit and ready:
 		final_index=setwinners+final_index
 		if not spoil:
 			for i in final_index:
-				st.write(dataset.iloc[i].title+': '+ dataset.iloc[i].summary)
+				st.write(dataset.iloc[i].title+':')
+				st.write(dataset.iloc[i].summary)
 			
 
 
