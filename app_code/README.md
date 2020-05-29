@@ -6,8 +6,21 @@ Hi and welcome to our app! The purpose is to take a few things that matter to yo
 - [Supervised](https://afternoon-inlet-95580.herokuapp.com/) 
 - [Unsupervised] ()
 
-## About Supervised
+## Inspiration for the app
+When analysisng the scripts we found that a higher rating (on imdb) in episode usually means that Ross and Rachel are both talking more than they usually do and that the episode a very high percentage of scenes at Monica's Apartment.  This was the inspiration for the app. Companies like Netflix give us recommendations about what tv series or movie we might like, but they don't recommend a specific tv show.  If you know you want to watch Friends, but aren't sure if you feel like begining the long process of binging it, then you probably just want a couple of episodes that are quailty (not that the entire series isn't quality).  
 
+## About Supervised
+The supervised version takes in a max of one character, one location, one side character and one keyword.  The algorithm is a little tedious to explain because we had to make some tough choices about how to choose which inputs mattered the most or a systematic way of combining them for what we thought was a fitting algorithm.  
+
+
+### How the algorithm works:
+- Takes the character (if one is chosen) and searches the database for the top 5 episodes in which the percentage of lines that character speaks vs all lines in the episode is highest
+- Takes the location (if one is chosen) and searches the database for the top 5 episodes in which the percentage of scenes located there vs all scenes in the episodes is highest
+- Takes the side character (if one is chosen) and searches for the top 5 episodes in which that character is present.  Note that one of the reasons we picked these characters is because they have all appeared in at least 5 episodes, some like Gunther appeared in much more.
+- Takes the keyword and searches the wikipedia summaries for the keyword again taking the top 5 episodes 
+- Combine all of these episodes into a list, and sort them by those that appeared most to least and breaking ties via their ratings.  
+- Return the first 5 in the list.
+- If there was too much over lap and 5 cannot be returned fill in the end with just top rated episodes that were not yet reccomended.
 
 
 
@@ -40,3 +53,6 @@ Hi and welcome to our app! The purpose is to take a few things that matter to yo
 - Open the terminal and locate the folder you downloaded
 - Streamlit run app_hardcode.py inside said folder for the supervised app
 - Streamlit run app_unsupervised.py inside said folder for the unsupervised app
+
+
+
