@@ -1,4 +1,4 @@
-# The_One_with_All_the_Data
+# The_One_with_all_the_Data
 
 Project name: The One with all the Data
 
