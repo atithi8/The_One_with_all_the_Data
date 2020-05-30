@@ -1,1 +1,7 @@
 # The_One_with_All_the_Data
+
+## with_rows_removed_addedrows.csv
+This file is the result of running combining_data.ipynb.  Given that the IMDB files give seperate pages for part 1 and 2 of episodes, but the the scripts combine part 1 and 2, we did a weighted average of the number of ratings with respect to the number of reviews both episodes had inorder to try and fairly categorize them.  When thinking of the ratings as Above Average, Below Average, or Average (where we defined the average interval to be mean +/- 1/2 sd) we saw that this method very rarely effected which catergory it would fall into.  The scenes columns are made up of percent of scenes located at the location divided by the total number of scenes, for each episode.  The character columns are the same as is the all column where All is the lines labeled "All" or "Everybody" in the scripts.
+
+## Good_and_bad.csv
+It is known (and can be easily confirmed via our csvs) that Rachel and Ross talk the most in the show with Rachel having the most lines total. Given that our analysis was showing that Rachel and Ross talking at higher percentages (with respect to themselves since in general they are always the highest) were clustered with higher ratings, we wanted to see what would happen when we seperated their respective lines from the really good episodes from the really bad ones.  That is what this set does to be used in things like the tsne plots you can see in the figures_and_data page.
