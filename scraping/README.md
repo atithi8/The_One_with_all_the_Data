@@ -21,7 +21,7 @@ The github that we origonally got the scripts from is a wonderful resource excep
 
 One way we attacked this was by downloading the scripts and reuploading them on another github where we had the ability to edit the parts that would break the code. Other than that, the fix was a whole lot of extra conditions that we searched through when parsing the script and taking out things like recaps.  There is no way that we got all of they typos/ weird formatting into account, however any problems should be far and few between and should thus not have a noticable effect on our analysis. 
 
-One last note is if one looks at the other Friends Data Science projects in the world, it appears that everyone has used this resource for their codes.  There exist Kaggle Databases with the scripts [Here](https://www.kaggle.com/ryanstonebraker/friends-transcript) and [Here](https://www.kaggle.com/ryanstonebraker/friends-transcript/version/1) but they did not include things like scene locations which we believed to be important and some skipped some the of the more problem episodes all together.  
+One last note is if one looks at the other Friends Data Science projects in the world, it appears that everyone has used this resource for their codes.  There exist Kaggle Databases with the scripts [here](https://www.kaggle.com/ryanstonebraker/friends-transcript) and [here](https://www.kaggle.com/ryanstonebraker/friends-transcript/version/1) but they did not include things like scene locations which we believed to be important and some skipped some the of the more problem episodes all together.  
 
 
 ### The output
