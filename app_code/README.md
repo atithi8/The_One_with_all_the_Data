@@ -1,16 +1,16 @@
 # The One with the Recommendations
 
-Hi and welcome to our app! The purpose is to take a few things that matter to you: Main characters, side characters, locations, keyword, etc and output a recommendation of 5 episodes of Friends!  There are two versions, one that uses a supervised technique and the other that uses an unsupervised on.  You can go directly to playing with these apps or you can first learn a bit more about how each one works below.
+Hi and welcome to our app! The purpose is to take a few things that matter to you: Main characters, side characters, locations, keyword, etc and output a recommendation of 5 episodes of Friends!  There are two versions, one that uses a constrained technique and the other that uses an unsupervised one.  You can go directly to playing with these apps or you can first learn a bit more about how each one works below.
 
 ## Play with the apps
-- [Supervised](https://afternoon-inlet-95580.herokuapp.com/) 
+- [Constrained](https://afternoon-inlet-95580.herokuapp.com/) 
 - Unsupervised (follow the download directions below)
 
 ## Inspiration for the app
 When analysisng the scripts we found that a higher rating (on imdb) in episode usually means that Ross and Rachel are both talking more than they usually do and that the episode a very high percentage of scenes at Monica's Apartment.  This was the inspiration for the app. Companies like Netflix give us recommendations about what tv series or movie we might like, but they don't recommend a specific tv show.  If you know you want to watch Friends, but aren't sure if you feel like begining the long process of binging it, then you probably just want a couple of episodes that are quailty (not that the entire series isn't quality).  
 
-## About Supervised
-The supervised version takes in a max of one character, one location, one side character and one keyword.
+## About Constrained
+The constrained version takes in a max of one character, one location, one side character and one keyword.
 
 ### How the algorithm works:
 - Takes the character (if one is chosen) and searches the database for the top 5 episodes in which the percentage of lines that character speaks vs all lines in the episode is highest
