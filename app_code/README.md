@@ -50,7 +50,7 @@ The algorithm is a little wordy to explain because we had to make some tough cho
 - Download the files
 - Make sure that you have streamlit installed 
 - Open the terminal and locate the folder you downloaded
-- Streamlit run app_hardcode.py inside said folder for the supervised app
+- Streamlit run app_hardcode.py inside said folder for the constrained app
 - Streamlit run app_unsupervised.py inside said folder for the unsupervised app
 
 
