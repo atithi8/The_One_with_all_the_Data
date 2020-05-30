@@ -10,7 +10,8 @@ In the 'analyses' folder there are three subfolders:
 This method combines a bunch of the CSV's together to create a nice CSV that tries to include as much information on the individual episodes as possible.  It includes the percent of the scenes that take place at big locations like: Joey's, Monica's and Ross's apartment as well as Central Perk.  It also does the same for percentage of lines said by each main character vs all lines in the episode (where a line is defined to be everything they said before a different person spoke).  It has which minor characters are in it, all of the credited actors, percentages of quotes, etc. So one may even think of this as the cleaning the dataset notebook more than analysis.
 
 ## merge_df.ipynb
-This notebook combines the different possible predictors (director, airdate, scene, side characters, etc.) obtained from IMDB and Wikipedia with the two outcomes we considered: episode rating and number of viewers in the US in millions.
+This notebook combines the different possible predictors (director, airdate, scene, side characters, etc.) obtained from IMDB and Wikipedia with the two outcomes we considered: episode rating and number of viewers in the US in millions.    
+In code using the variable 'overall_ep', it refers to the position of the episode in the whole show. This variable was created by joing the 'season' and 'episode' columns, so the 15 episode from season 8 was recoded as 815.
 
 
 
