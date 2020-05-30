@@ -4,7 +4,7 @@ Hi and welcome to our app! The purpose is to take a few things that matter to yo
 
 ## Play with the apps
 - [Supervised](https://afternoon-inlet-95580.herokuapp.com/) 
-- [Unsupervised] ()
+- Unsupervised (follow the download directions below)
 
 ## Inspiration for the app
 When analysisng the scripts we found that a higher rating (on imdb) in episode usually means that Ross and Rachel are both talking more than they usually do and that the episode a very high percentage of scenes at Monica's Apartment.  This was the inspiration for the app. Companies like Netflix give us recommendations about what tv series or movie we might like, but they don't recommend a specific tv show.  If you know you want to watch Friends, but aren't sure if you feel like begining the long process of binging it, then you probably just want a couple of episodes that are quailty (not that the entire series isn't quality).  
