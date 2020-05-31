@@ -14,7 +14,7 @@ Project Inspired by: Erd&#337;s Bootcamp on Data Science that took place in May 
 - Modeling how different factors such as side characters, location of the scenes, director, or air season may affect ratings of the Friends series episodes. 
 - Understanding what makes a good episode in order to be able to recommend a specific episode of the show to watch based on user's conscious preferences.
 
-Project slides [PDF](https://drive.google.com/file/d/1MixSt3D3Bk9DpB6BrmSwShaafa0sGMER/view?usp=sharing) 
+Project slides [PDF](https://drive.google.com/file/d/1MixSt3D3Bk9DpB6BrmSwShaafa0sGMER/view?usp=sharing) and the [video version](https://youtu.be/FpxVTFjL6vA) 
 
 ## A Few Caveats about our Project
 - Other Friends Data Science projects exist, but looking at the relationship between the ratings and things like scene percentages appears to be novel and thus our project ignored the sentiment analysis and analysing who the "main" character was and other such things, a summary of some of those analyses can be found [here](https://towardsdatascience.com/the-one-with-all-the-friends-analysis-59dafcec19c5).  
