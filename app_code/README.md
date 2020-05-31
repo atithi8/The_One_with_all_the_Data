@@ -33,7 +33,7 @@ Input: The unsupervised version takes in multiple characters, one side character
 ### How the algorithm works:
 - Collect summaries obtained from Wikipedia for each of the episodes and then pre-process it which includes cleaning i.e. remove extra spaces etc. 
 - We also remove stopwords such as "the", "a", "I", etc importing from the NLTK library.
-- After the preprocessing, we tokenize or break down the entire text corpus into tokens (words). Further, we use Word Embeddings such as glove or word2vec that was built to build vector representations of each summary
+- After the preprocessing, we tokenize or break down the entire text corpus into tokens (words). Further, we use Word Embeddings such as [glove]([glove](https://www.aclweb.org/anthology/D14-1162/) or word2vec that was built to build vector representations of each summary
 - We then also convert our input phrase which contains all the inputs given by the user 
 - Compute scores using a cosine similarity metric between the vector representation of the input phrase and that of the corresponding context vectors of episode summaries. 
 
