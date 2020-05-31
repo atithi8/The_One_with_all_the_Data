@@ -48,7 +48,7 @@ We can do a similarity search between the input phrase and the entire text corpu
 
 
 ## Directions to run the apps locally
-(For the unsupervised version: Also download an extra file from the following [link] (https://drive.google.com/file/d/1yzXSCxyfqut0KvPiVYQ2q6B2KC3ZDxvJ/view?usp=sharing) )
+(For the unsupervised version: Also download an extra file from the following [link](https://drive.google.com/file/d/1yzXSCxyfqut0KvPiVYQ2q6B2KC3ZDxvJ/view?usp=sharing) )
 
 - Download the files 
 - Make sure that you have streamlit installed 
