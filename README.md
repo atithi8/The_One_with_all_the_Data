@@ -12,7 +12,7 @@ Project Inspired by: Erd&#337;s Bootcamp on Data Science that took place in May 
 
 ## Project Idea/Goals
 - Modeling how different factors such as side characters, location of the scenes, director, or air season may affect ratings of the Friends series episodes. 
-- Understand what makes a good episode in order to be able to recommend a specific episode of the show to watch based on user's conscious preferences.
+- Understanding what makes a good episode in order to be able to recommend a specific episode of the show to watch based on user's conscious preferences.
 
 Project slides [PDF](https://drive.google.com/file/d/1MixSt3D3Bk9DpB6BrmSwShaafa0sGMER/view?usp=sharing) 
 
