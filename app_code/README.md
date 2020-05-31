@@ -4,7 +4,7 @@ Hi and welcome to our app! The purpose is to take a few things that matter to yo
 
 ## Play with the apps
 - [Constrained](https://afternoon-inlet-95580.herokuapp.com/) 
-- Unsupervised (follow the download directions below)
+- Unsupervised(follow the download directions below)
 
 ## Inspiration for the app
 When analysisng the scripts we found that a higher rating (on imdb) in episode usually means that Ross and Rachel are both talking more than they usually do and that the episode a very high percentage of scenes at Monica's Apartment.  This was the inspiration for the app. Companies like Netflix give us recommendations about what tv series or movie we might like, but they don't recommend a specific tv show.  If you know you want to watch Friends, but aren't sure if you feel like begining the long process of binging it, then you probably just want a couple of episodes that are quailty (not that the entire series isn't quality).  
@@ -27,31 +27,35 @@ The algorithm is a little wordy to explain because we had to make some tough cho
 
 
 
-## About Unsupervised
+## About Unsupervised 
+Input: The unsupervised version takes in multiple characters, one side character and can take many keywords
+
+### How the algorithm works:
+- Collect summaries obtained from Wikipedia for each of the episodes and then pre-process it which includes cleaning i.e. remove extra spaces etc. 
+- We also remove stopwords such as "the", "a", "I", etc importing from the NLTK library.
+- After the preprocessing, we tokenize or break down the entire text corpus into tokens (words). Further, we use Word Embeddings such as glove or word2vec that was built to build vector representations of each summary
+- We then also convert our input phrase which contains all the inputs given by the user 
+- Compute scores using a cosine similarity metric between the vector representation of the input phrase and that of the corresponding context vectors of episode summaries. 
 
 
+### Caveat of this method
+There is a lack of a way to validate the predictions that the algorithm makes since we are limited to a completely unsupervised setting and also recommendations can't be put into correct or incorrect labels. However qualitatively it could be judged how good the recommendation by the app performs.
 
 
-
-
-
-
-
-
-
-
-
-
+### Scope of improvement
+We can do a similarity search between the input phrase and the entire text corpus of each episode which will make the predictions better and will also include more sophisticated entry into the keyword input. Also, we can create a context vector by actually trying to learn a summary using higher levels of a network-like similarity searches i.e. page ranking system from the entire text corpus of an episode. This can help us generalize further into other tv shows.
 
 
 
 ## Directions to run the apps locally
+(For the unsupervised version: Also download an extra file from the following [link] (https://drive.google.com/file/d/1yzXSCxyfqut0KvPiVYQ2q6B2KC3ZDxvJ/view?usp=sharing) )
 
-- Download the files
+- Download the files 
 - Make sure that you have streamlit installed 
 - Open the terminal and locate the folder you downloaded
 - Streamlit run app_hardcode.py inside said folder for the constrained app
 - Streamlit run app_unsupervised.py inside said folder for the unsupervised app
+
 
 
 
