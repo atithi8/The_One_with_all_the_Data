@@ -35,5 +35,19 @@ Since we did not find many relationships, we decided to simply explore possible 
 We tried to use LDA on all of Rachel's Line like in [this article](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0).  We created a word cloud (after adding some extra stopping words).  After that we looked at the different "documents" where each was a string of all of the words that Rachel said in a particular episode and then ran it in our LDA model.  The version in this file was for 7 topics which we felt looked the best out of the others we had seen. It did not perform well, however, for a few reasons that make a lot of sense.  The first is when these scripts are made, the transcribers try to take into account stuttering and pauses like for example "wa-wa-what" or "ohhh...kay" these make sense when transcribing, but for LDA are hard to take into account such a large size of stopwords. The second big issues is the number of times the characters say eachother's name, after the stopwords are removed, Rachel says Ross's name the most and Monica says Chandler's.  However overall all the characters say eachothers name and nicknames so much a lot of what is being picked up is the names.
 
 
+
 ## Directors, and episode type and memorable quotes
 These two Jupyter Notebooks contain the data exploration to find out possible relationships between who the director for each episode is, whether the episode is a season premiere, finale or an episode in between, and the episode's rating. Regarding the memorable quotes, the phrases that were considered memorable quotes were those agreed upon by several webpages talking about memorable quotes from Friends. For very general quotes such as 'seven,' it was also linked to the character that it is associated with. We tested both how having a memorable quote or not in the episode affected ratings, and also how many quotes were in each episode. In these notebooks there's some short analysis on lines, like how many each character utters in the whole show or per season.
+
+## Other visualization concepts::
+The Wordclouds form an efficient visualization for bag of words [link](https://en.wikipedia.org/wiki/Bag-of-words_model). 
+
+t-SNE: It helps us visualize higher dimensional data (In our case word embedding vectors)
+
+How it works conecptually?
+It converts similarities between data points to joint probabilities and tries to minimize the Kullback-Leibler divergence between the joint probabilities of the low-dimensional embedding and the high-dimensional data.
+
+Specific observation on our implementation
+We work on individual datasets such as lines spoken by Rachel, Ross or songs written by Phoebe (These are used in the jupyter notebook /NLP/ attempt_plot_tsne.ipynb)
+We pre process the data and also remove stopwords such as "the", "a", "I", etc importing from the NLTK library.
+Then we use word embeddings [glove](https://www.aclweb.org/anthology/D14-1162/) to generate the embedding vectors which is high dimensional (e.g. 100). And to actually see if these embeddings preserve meaningul similarities between words spoken by character in the representations we successfully use the visualization to find similar datasets club together. Tuning the hyperparameters for t-SNE such as perplexity helps in better visualizations.
