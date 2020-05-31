@@ -3,10 +3,10 @@
 Project name: The One with all the Data
 
 Project members: 
-- Brooke Ogrodnik (bl481@math.rutgers.edu)
-- Daniel Cisneros (cisneros.26@osu.edu)
 - Atithi Acharya (atithi.8@rutgers.edu)
+- Daniel Cisneros (cisneros.26@osu.edu)
 - Laura Fernandez Arroyo (laura.fdeza@rutgers.edu)
+- Brooke Ogrodnik (bl481@math.rutgers.edu)
 
 Project Inspired by: Erd&#337;s Bootcamp on Data Science that took place in May 2020
 
